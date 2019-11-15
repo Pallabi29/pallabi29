@@ -1,0 +1,8 @@
+Convolution:Its a method of forming the original image from bits and pieces
+Filters: Its also called feature extractor which helps in extracting the important features of image
+Epoch:Number of iterations of data set 
+1x1 Convolution:This is used to reduce number of channels
+3x3 Convolution:This method can be used to make any filter size like 5x5,7x7
+Feature Map:This refers to extraction of that part of image which has major information
+Activation Function: This function helps in knowing the original image.
+Receptive field: Refers to the size of image which we can see at any point of time.It can be global or local
