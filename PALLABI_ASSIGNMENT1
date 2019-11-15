@@ -1,0 +1,12 @@
+ 
+model.add(Convolution2D(32, 3, 3, activation='relu', input_shape=(28,28,1)))
+model.add(Convolution2D(64, 3,3, activation='relu'))
+model.add(Convolution2D(64, 3,3, activation='relu'))
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Convolution2D(32, 3,3, activation='relu'))
+model.add(Convolution2D(16, 3,3, activation='relu'))
+model.add(Convolution2D(16, 3,3, activation='relu'))
+model.add(Convolution2D(10, 3,3, activation='relu'))
+model.add(Convolution2D(10, 3,3, activation='relu'))
+model.add(Flatten())
+model.add(Activation('softmax'))
